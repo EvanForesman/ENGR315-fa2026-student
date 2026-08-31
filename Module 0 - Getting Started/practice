@@ -1,0 +1,10 @@
+
+#population growth variables
+Initial_population = 500
+Population_after_time = 2000
+Time = 10 
+
+#calculate population growth rate
+rate=(Initial_population - Population_after_time) / (Initial_population * Time)
+print ("The population growth rate is: ", rate)
+
